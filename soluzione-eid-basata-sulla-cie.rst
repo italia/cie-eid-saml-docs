@@ -56,21 +56,22 @@ parte di CieID Server e del Ministero stesso.
    L’interazione con l’utente da parte della componente CieID Server, puó avvenire secondo diverse modalitá:
 
    -  **Modalitá «desktop»:** l’utente si autentica mediante un browser 
-   installato sul proprio computer. Nel caso di accesso di livello 3, utilizza la CIE 
-   mediante un lettore contactless collegato al computer
+installato sul proprio computer. Nel caso di accesso di livello 3, utilizza la CIE 
+mediante un lettore contactless collegato al computer
 
    -  **Modalitá «mobile»**: l’utente si autentica al servizio tramite un
-   browser installato su un dispositivo mobile (smartphone o tablet)
-   dotato dell’app CieID. Nel caso di accesso di livello 3, il
-   dispositivo mobile deve essere necessariamente dotato di interfaccia
-   NFC. In tale circostanza la fase di autenticazione si completa
-   avvicinando la CIE al proprio dispositivo;
+browser installato su un dispositivo mobile (smartphone o tablet)
+dotato dell’app CieID. Nel caso di accesso di livello 3, il
+dispositivo mobile deve essere necessariamente dotato di interfaccia
+NFC. In tale circostanza la fase di autenticazione si completa
+avvicinando la CIE al proprio dispositivo;
 
    -  **Modalitá «desktop + smartphone»**: l’utente si autentica al
-   servizio tramite un browser installato sul proprio computer e, nel
-   caso di accesso di livello 2 o 3 completa l’autenticazione mediante
-   l’app CieID eventualmente avvicinando la CIE al proprio dispositivo
-   mobile dotato di interfaccia NFC.
+servizio tramite un browser installato sul proprio computer e, nel
+caso di accesso di livello 2 o 3 completa l’autenticazione mediante
+l’app CieID eventualmente avvicinando la CIE al proprio dispositivo
+mobile dotato di interfaccia NFC.
+
 
 Lo schema Entra con CIE si realizza dunque mediante due macro-fasi
 distinte:
@@ -262,6 +263,7 @@ dispositivi Android e per dispositivi iOS.
 
 .. figure:: media/image12.png
     :alt: App Cie Android
+    :scale: 70 %
     :name: cie-android
     :align: center
 
@@ -269,6 +271,7 @@ dispositivi Android e per dispositivi iOS.
 
 .. figure:: media/image13.png
     :alt: App Cie iOS
+    :scale: 70 %
     :name: button-ecc
     :align: center
 
@@ -293,6 +296,7 @@ subentro sullo schema.
 
 .. figure:: media/image14.png
     :alt: App CieID test
+    :scale: 70 %
     :name: cieid-test
     :align: center
 
