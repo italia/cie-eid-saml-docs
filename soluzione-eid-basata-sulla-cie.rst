@@ -55,23 +55,11 @@ parte di CieID Server e del Ministero stesso.
 .. note::
    L’interazione con l’utente da parte della componente CieID Server, puó avvenire secondo diverse modalitá:
 
-   -  **Modalitá «desktop»:** l’utente si autentica mediante un browser 
-installato sul proprio computer. Nel caso di accesso di livello 3, utilizza la CIE 
-mediante un lettore contactless collegato al computer
+   -  **Modalitá «desktop»:** l’utente si autentica mediante un browser installato sul proprio computer. Nel caso di accesso di livello 3, utilizza la CIE mediante un lettore contactless collegato al computer
 
-   -  **Modalitá «mobile»**: l’utente si autentica al servizio tramite un
-browser installato su un dispositivo mobile (smartphone o tablet)
-dotato dell’app CieID. Nel caso di accesso di livello 3, il
-dispositivo mobile deve essere necessariamente dotato di interfaccia
-NFC. In tale circostanza la fase di autenticazione si completa
-avvicinando la CIE al proprio dispositivo;
+   -  **Modalitá «mobile»**: l’utente si autentica al servizio tramite un browser installato su un dispositivo mobile (smartphone o tablet) dotato dell’app CieID. Nel caso di accesso di livello 3, il dispositivo mobile deve essere necessariamente dotato di interfaccia NFC. In tale circostanza la fase di autenticazione si completa avvicinando la CIE al proprio dispositivo;
 
-   -  **Modalitá «desktop + smartphone»**: l’utente si autentica al
-servizio tramite un browser installato sul proprio computer e, nel
-caso di accesso di livello 2 o 3 completa l’autenticazione mediante
-l’app CieID eventualmente avvicinando la CIE al proprio dispositivo
-mobile dotato di interfaccia NFC.
-
+   -  **Modalitá «desktop + smartphone»**: l’utente si autentica al servizio tramite un browser installato sul proprio computer e, nel caso di accesso di livello 2 o 3 completa l’autenticazione mediante l’app CieID eventualmente avvicinando la CIE al proprio dispositivo mobile dotato di interfaccia NFC.
 
 Lo schema Entra con CIE si realizza dunque mediante due macro-fasi
 distinte:
