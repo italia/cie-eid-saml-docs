@@ -1,18 +1,15 @@
-==================================
-Documento di esempio - Docs Italia
-==================================
+###################
+Entra con CIE
+###################
 
-.. raw:: latex 
+.. highlights::
 
-   \makeatletter\@openrightfalse
-	\chapter{Introduzione}
-
-Descrizione scopo del documento.
+   Overview
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Indice dei contenuti
-   :numbered:
+  :maxdepth: 3
+  :numbered:
 
-   introduzione.rst  
-   
+  
+  introduzione.rst
+  soluzione-eid-basata-sulla-cie.rst
