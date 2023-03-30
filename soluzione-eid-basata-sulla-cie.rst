@@ -17,6 +17,8 @@ strumento di identità digitale. Di seguito viene mostrato uno schema
 logico della soluzione eID basata sulla CIE.
 
 .. figure:: media/image1.png
+    :alt: Schema di autenticazione entra con CIE.
+    :width: 15 cm
     :name: schema-cie
     :align: center
 
@@ -50,21 +52,21 @@ riconducibile al Ministero dell’Interno all’erogatore del servizio; tale
 asserzione costituisce prova di avvenuto riconoscimento dell’utente da
 parte di CieID Server e del Ministero stesso.
 
-L’interazione con l’utente da parte della componente CieID Server, puó
-avvenire secondo diverse modalitá:
+.. note::
+   L’interazione con l’utente da parte della componente CieID Server, puó avvenire secondo diverse modalitá:
 
--  **Modalitá «desktop»:** l’utente si autentica mediante un browser
-   installato sul proprio computer. Nel caso di accesso di livello 3,
-   utilizza la CIE mediante un lettore contactless collegato al computer
+   -  **Modalitá «desktop»:** l’utente si autentica mediante un browser 
+   installato sul proprio computer. Nel caso di accesso di livello 3, utilizza la CIE 
+   mediante un lettore contactless collegato al computer
 
--  **Modalitá «mobile»**: l’utente si autentica al servizio tramite un
+   -  **Modalitá «mobile»**: l’utente si autentica al servizio tramite un
    browser installato su un dispositivo mobile (smartphone o tablet)
    dotato dell’app CieID. Nel caso di accesso di livello 3, il
    dispositivo mobile deve essere necessariamente dotato di interfaccia
    NFC. In tale circostanza la fase di autenticazione si completa
    avvicinando la CIE al proprio dispositivo;
 
--  **Modalitá «desktop + smartphone»**: l’utente si autentica al
+   -  **Modalitá «desktop + smartphone»**: l’utente si autentica al
    servizio tramite un browser installato sul proprio computer e, nel
    caso di accesso di livello 2 o 3 completa l’autenticazione mediante
    l’app CieID eventualmente avvicinando la CIE al proprio dispositivo
@@ -90,7 +92,9 @@ deve utilizzare il kit disponibile all’indirizzo
 https://github.com/italia/cie-graphics.
 
 .. figure:: media/image2.jpg
-    :name: button-ecc
+    :alt: Pulsante Entra con CIE
+    :scale: 70 %
+    :name: pulsante-entra-con-cie
     :align: center
 
     Pulsante ufficiale «Entra con CIE»
@@ -163,6 +167,7 @@ Accesso di livello 1
 **COMPUTER**
 
 .. figure:: media/image3.png
+    :alt: Accesso di livello 1 da computer
     :name: accesso-livello1-pc
     :align: center
 
@@ -171,6 +176,7 @@ Accesso di livello 1
 **SMARTPHONE**
 
 .. figure:: media/image4.jpg
+    :alt: Accesso di livello 1 da smartphone
     :name: accesso-livello1-sm
     :align: center
 
@@ -182,6 +188,7 @@ Accesso di livello 2
 **COMPUTER VIA OTP (SMS)**
 
 .. figure:: media/image5.png
+    :alt: Accesso di livello2 da computer
     :name: accesso-livello2-pc
     :align: center
 
@@ -190,6 +197,7 @@ Accesso di livello 2
 **COMPUTER VIA OTP (PUSH)**
 
 .. figure:: media/image6.png
+    :alt: Accesso di livello 2 da computer push
     :name: accesso-livello2-pc
     :align: center
 
@@ -198,6 +206,7 @@ Accesso di livello 2
 **COMPUTER VIA QR CODE e CieID**
 
 .. figure:: media/image7.png
+    :alt: Accesso di livello 2 da computer QR
     :name: accesso-livello2-qr
     :align: center
 
@@ -206,6 +215,7 @@ Accesso di livello 2
 **SMARTPHONE**
 
 .. figure:: media/image8.png
+    :alt: Accesso di livello 2 da smartphone
     :name: accesso-livello2-sm
     :align: center
 
@@ -217,6 +227,7 @@ Accesso di livello 3
 **COMPUTER**
 
 .. figure:: media/image9.png
+    :alt: Accesso di livello 3 da computer RF CIE
     :name: accesso-livello3-pccie
     :align: center
 
@@ -225,6 +236,7 @@ Accesso di livello 3
 **SMARTPHONE**
 
 .. figure:: media/image10.png
+    :alt: Accesso di livello 3 da smartphone
     :name: accesso-livello3-sm
     :align: center
 
@@ -233,6 +245,7 @@ Accesso di livello 3
 **MISTA DESKTOP + SMARTPHONE**
 
 .. figure:: media/image11.png
+    :alt: Accesso di livello 3 computer + smartphone
     :name: accesso-livello3-pcsm
     :align: center
 
@@ -248,12 +261,14 @@ CIE”* da terminali mobili è l’app CieID, che viene fornita per
 dispositivi Android e per dispositivi iOS.
 
 .. figure:: media/image12.png
+    :alt: App Cie Android
     :name: cie-android
     :align: center
 
     App CieID Android - Link per il download
 
 .. figure:: media/image13.png
+    :alt: App Cie iOS
     :name: button-ecc
     :align: center
 
@@ -277,6 +292,7 @@ subentro sullo schema.
 	`link <https://install.appcenter.ms/users/ipzsapp/apps/cieid-preproduzione/distribution_groups/public%20link>`__\  [2]_
 
 .. figure:: media/image14.png
+    :alt: App CieID test
     :name: cieid-test
     :align: center
 
