@@ -196,7 +196,7 @@ Accesso di livello 2
 
 .. figure:: media/image7.png
     :alt: Accesso di livello 2 da computer QR
-    :name: accesso-livello2-qr
+    :name: accesso-livello2-QR
     :align: center
 
     Accesso di livello 2 da computer attraverso scansione QR code
@@ -250,7 +250,7 @@ CIE”* da terminali mobili è l’app CieID, che viene fornita per
 dispositivi Android e per dispositivi iOS.
 
 .. figure:: media/image12.png
-    :alt: App Cie Android
+    :alt: AppCieID-Android-QR
     :scale: 70 %
     :name: cie-android
     :align: center
@@ -258,7 +258,7 @@ dispositivi Android e per dispositivi iOS.
     App CieID Android - Link per il download
 
 .. figure:: media/image13.png
-    :alt: App Cie iOS
+    :alt: AppCieID-iOS-download
     :scale: 70 %
     :name: button-ecc
     :align: center
@@ -283,7 +283,7 @@ subentro sullo schema.
 	`link <https://install.appcenter.ms/users/ipzsapp/apps/cieid-preproduzione/distribution_groups/public%20link>`__\  [2]_
 
 .. figure:: media/image14.png
-    :alt: App CieID test
+    :alt: App-CieID-test
     :scale: 70 %
     :name: cieid-test
     :align: center
