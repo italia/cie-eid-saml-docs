@@ -1,7 +1,7 @@
 .. _soluzione-eid-basata-sulla-cie:
 
 Soluzione eID basata sulla CIE
-===================================
+==============================
 
 Lo schema di autenticazione “\ *Entra con CIE*\ ” segue il modello
 dell’identità federata e dunque prevede l’introduzione di un gestore
@@ -147,11 +147,11 @@ protocollo impiegato e il livello di sicurezza richiesto.
 .. _sec-meccanismi:
 
 Meccanismi di funzionamento
----------------------------------
+---------------------------
 
 
 Accesso di livello 1 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 **COMPUTER**
 
@@ -172,7 +172,7 @@ Accesso di livello 1
     Accesso di livello 1 da smartphone
 
 Accesso di livello 2 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 **COMPUTER VIA OTP (SMS)**
 
@@ -211,7 +211,7 @@ Accesso di livello 2
     Accesso di livello 2 da smartphone
 
 Accesso di livello 3 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 **COMPUTER**
 
@@ -243,7 +243,7 @@ Accesso di livello 3
 .. _sec-app:
 
 APP “CieID” e SDK di integrazione
-----------------------------------------
+---------------------------------
 
 Una componente fondamentale per l’utilizzo dello schema “\ *Entra con
 CIE”* da terminali mobili è l’app CieID, che viene fornita per
