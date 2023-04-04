@@ -128,7 +128,7 @@ dal servizio o dall’utente stesso impostato. Nel dettaglio:
 Allo stato dell’arte questa modalità è fruibile mediante smartphone
 dotati di tecnologia NFC e sistema operativo Android 6 o superiore,
 mediante il browser “Chrome”, e iPhone 7 o superiori con sistemi
-operativi iOS 13 o superiore [1]_, mediante browser Safari. Tutte le
+operativi iOS 13 o superiore [#]_, mediante browser Safari. Tutte le
 componenti software, sia lato server IdP e sia client (Middleware e App
 CieID), sono sviluppate e gestite dal Poligrafico che cura anche le
 attività di supporto e assistenza tecnica al Service Provider
@@ -139,7 +139,7 @@ I diagrammi seguenti illustrano i meccanismi di funzionamento dello
 schema “Entra con CIE” nei vari scenari di utilizzo, secondo il
 protocollo impiegato e il livello di sicurezza richiesto.
   
-.. [1]
+.. [#]
    Non è consentito l’accesso da terminali dotati di sistema operativo
    iOS precedenti alla release 13 a causa dell’impossibilità di impiego
    del lettore NFC per contesti di utilizzo non approvati da Apple.
@@ -280,7 +280,7 @@ subentro sullo schema.
 	usare l’App CieID «ufficiale» in ambiente di pre-produzione ma é
 	necessario installare l’App CieID di test \ `8 <#_heading=h.26in1rg>`__
 	disponibile al seguente
-	`link <https://install.appcenter.ms/users/ipzsapp/apps/cieid-preproduzione/distribution_groups/public%20link>`__\  [2]_
+	`link <https://install.appcenter.ms/users/ipzsapp/apps/cieid-preproduzione/distribution_groups/public%20link>`__\  [#]_
 
 .. figure:: media/image14.png
     :alt: App-CieID-test
@@ -295,11 +295,11 @@ mediante il software CieID e agevolare gli sviluppi applicativi, é
 possibile richiedere ed utilizzare, in caso di indisponibilitá di una
 CIE «autentica», carte di test che é possibile richiedere in fase di
 onboarding tramite il `portale di federazione erogatori di
-servizi <https://federazione.servizicie.interno.gov.it/>`__\  [3]_
+servizi <https://federazione.servizicie.interno.gov.it/>`__\  [#]_
 cfr. il `Manuale operativo per i fornitori
 di <https://docs.italia.it/italia/cie/cie-manuale-operativo-docs>`__
 `servizi pubblici e
-privati <https://docs.italia.it/italia/cie/cie-manuale-operativo-docs>`__\  [4]_
+privati <https://docs.italia.it/italia/cie/cie-manuale-operativo-docs>`__\  [#]_
 per ulteriori dettagli sul processo di onboarding).
 
 Per i Service Provider interessati a fornire al cittadino i propri
@@ -323,15 +323,15 @@ le SDK Android e iOS che mettono a disposizione esempi di codice
 sorgente per l’integrazione dei due flussi sopra riportati nonché una
 libreria software per l’integrazione del flusso integrato con esempi.
 
-.. [2]
+.. [#]
    L’App CieID di test é attualmente disponibile solo per dispositivi
    Android.
    https://install.appcenter.ms/users/ipzsapp/apps/cieid-preproduzione/distribution_groups/public%20link
 
-.. [3]
+.. [#]
    https://federazione.servizicie.interno.gov.it
 
-.. [4]
+.. [#]
    https://docs.italia.it/italia/cie/cie-manuale-operativo-docs
 
    
