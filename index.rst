@@ -1,11 +1,7 @@
-=============================================================
-Manuale tecnico per i fornitori di Servizi Pubblici e Privati
-=============================================================
-
-
+===============
 Protocollo SAML
--------------------------------------------------------------
-
+===============
+   
 .. raw:: latex 
 
    \makeatletter\@openrightfalse
@@ -15,11 +11,11 @@ Lo scopo del presente documento è quello di definire le specifiche tecniche ine
 come schema di autenticazione per l'accesso ai servizi in rete erogati da PP.AA. e privati.
 (`Soluzione eID basata sulla CIE  <https://docs.italia.it/italia/cie/cie-manuale-tecnico-docs/it/master/overview>`__\)
 
+
 .. toctree::
    :maxdepth: 2
    :numbered:
    :caption: Indice dei contenuti
-
 
    federazione.rst
    protocolli.rst
