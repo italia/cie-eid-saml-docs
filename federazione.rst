@@ -7,7 +7,7 @@ L’accesso al servizio di autenticazione “Entra con CIE” offerto dal Minist
 
 Metadata IdP
 ============
-CieID server è disponibile sia in ambiente di produzione che in ambiente di test/preproduzione.
+CieID server è fruibile sia in ambiente di produzione che in ambiente di test/preproduzione.
 I metadati XML relativi ai due ambienti sono raggiungibili ai seguenti indirizzi:
 
 
@@ -18,9 +18,9 @@ I metadati XML relativi ai due ambienti sono raggiungibili ai seguenti indirizzi
 
 Metadata SP
 ===========
-Il Service Provider (SP) deve predisporre un file di metadata conforme allo standard SAML v2. Tramite una apposita sezione presente nel `portale di federazione erogatori di sevizi <https://federazione.servizicie.interno.gov.it>`__, deve effettuare il caricamento del metadata sugli ambienti di pre-produzione e produzione messi a disposizione dal Ministero dell'Interno (cfr. il `Manuale operativo per i fornitori di servizi pubblici e privati <https://docs.italia.it/italia/cie/cie-manuale-operativo-docs>`__ per ulteriori dettagli sul processo di onboarding).
+Il Service Provider (SP) deve predisporre un file di metadata conforme allo standard SAML v2. Seguendo la procedura di onboarding implementata dal `portale di federazione erogatori di sevizi <https://federazione.servizicie.interno.gov.it>`__, deve effettuare il caricamento di tale metadata sugli ambienti di pre-produzione e produzione messi a disposizione dal Ministero dell'Interno (cfr. il `Manuale operativo per i fornitori di servizi pubblici e privati <https://docs.italia.it/italia/cie/cie-manuale-operativo-docs>`__ per ulteriori dettagli sul processo di onboarding).
 
-Tramite il medesimo portale, è possibile, inoltre, aggiornare un metadata già federato utilizzando la medesima procedura di caricamento dei metadata prevista dal portale di federazione sopra citato. É consentito, nell’ambito di una richiesta di federazione, il caricamento di un solo file di metadata per ambiente, e ogni caricamento successivo andrà a sostituire il precedente file di metadata.
+Tramite il medesimo portale, è possibile, inoltre, aggiornare un metadata già caricato. É consentito, nell’ambito di una richiesta di federazione, il caricamento di un solo file di metadata per ambiente, e ogni caricamento successivo andrà a sostituire il precedente file di metadata.
 
 .. note::
     Dal punto di vista tecnico i metadata SAML, oltre a ereditare le specifiche dallo standard SAML v2, condividono gran parte della struttura con quella attualmente prevista dalle Regole Tecniche SPID. Le differenze principali riguardano sostanzialmente le informazioni aggiuntive e di censimento del Service Provider e dell’eventuale partner tecnologico che cura gli aspetti tecnici di onboarding. Per maggiori dettagli consultare il capitolo :ref:`ciespid`
@@ -43,7 +43,7 @@ Struttura del metadata
 .. note::
     Ogni entità (Service Provider, Identity Provider, o altra), in una federazione SAML, è tecnicamente identificata e distinta dalle altre entità mediante il suo *EntityID*: una stringa che valorizza l'attributo :xml:`entityID` obbligatorio dell'elemento radice di ogni metadata SAML.
     Il Service Provider è responsabile della scelta di un *EntityID* **unico** per ciascun metadata. Metadata multipli afferenti al medesimo *EntityID* sono rifiutati.
-    Si consiglia di utilizzare, come *EntityID* un URL in https, non eccedente 1024 caratteri, afferente al dominio del soggetto del metadata SAML.
+    Si consiglia di utilizzare, come *EntityID* un URL in https, non eccedente 1024 caratteri, afferente al dominio del soggetto.
 
 L'elemento :xml:`<EntityDescriptor>` costituisce il contenitore al cui interno si trovano le regole e le direttive valide solo ed esclusivamente per quel singolo soggetto. É strutturato internamente come una sequenza di elementi tra i quali il Service Provider deve necessariamente inserire i seguenti, tutti **obbligatori** (e presenti *una e una sola sola volta*, salvo ove espressamente indicato):
 
@@ -55,7 +55,7 @@ L'elemento :xml:`<EntityDescriptor>` costituisce il contenitore al cui interno s
 
     - Una o due istanze :xml:`<ContactPerson>` in cui sono indicati ulteriori dati identificativi del soggetto cui il metadata SAML si riferisce e di un eventuale soggetto che, in veste di partner tecnologico, ne cura gli aspetti tecnici di federazione, sviluppo e messa in esercizio. I dati contenuti nelle istanze :xml:`<ContactPerson>` sono regolamentati più avanti.
 
-Si consiglia che i *namespace* XML rilevanti per il metadata SAML (sopratutto quelli utilizzati in più punti del metadata) siano indicati *una tantum* nell'elemento radice dello stesso.
+Si consiglia di indicare i *namespace* XML rilevanti per il metadata SAML (sopratutto quelli utilizzati in più punti del metadata) *una tantum* nell'elemento radice dello stesso.
 
 .. code-block:: xml
     :linenos:
@@ -90,7 +90,7 @@ Le informazioni tecnicamente più rilevanti sono contenute nell'elemento :xml:`<
 
 .. note::
 
-    In merito a gli attributi richiesti dal SP si precisa che la versione attuale del IdP può accogliere solo richieste realtive alla categoria di attributi *Minimum eIDAS Dataset* (nome, cognome, data di nascita e codice fiscale).
+    In merito a gli attributi richiesti dal SP si precisa che la versione attuale del IdP può accogliere solo richieste relative alla categoria di attributi *Minimum eIDAS Dataset* (nome, cognome, data di nascita e codice fiscale).
 
 Gli attributi dell'elemento :xml:`<SPSSODescriptor>` che **devono** essere presenti sono:
 
@@ -260,7 +260,7 @@ I sopraelencati elementi :xml:`<ContactPerson>` sono così valorizzati:
 Estensioni SAML
 ---------------
 Gli elementi :xml:`<Extensions>` opzionalmente presenti nei metadata SAML servono a contenere estensioni proprietarie -- dello schema *Entra con CIE* o relative ad altri schemi di identificazione elettronica (quali ad esempio *SPID*).
-Le implementazioni tecniche che non "riconoscono" particolari ulteriori estensioni oltre a quelle dello schema *Entra con CIE*, **devono** ignorarle (fintanto che siano rappresentate in una sintassi XML formalmente corretta) senza produrre condizioni di errore.
+Le implementazioni tecniche che non "riconoscono" particolari ulteriori estensioni oltre a quelle dello schema *Entra con CIE* **devono** ignorarle (fintanto che siano rappresentate in una sintassi XML formalmente corretta) senza produrre condizioni di errore.
 
 -------------------
 Esempio di metadata

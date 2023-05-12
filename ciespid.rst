@@ -39,5 +39,5 @@ Nella costruzione della richiesta di autenticazione :xml:`<AuthnRequest>` è nec
 Per quanto riguarda il parsing e la verifica dei messaggi di *response*, il Service Provider deve tenere conto che, diversamente da quanto previsto da SPID,
 
     - l'attributo :xml:`Format` dell'elemento :xml:`<samlp:Issuer>` non è presente;
-    .. - l'elemento :xml:`<saml:AuthnContextClassRef>` è valorizzato sempre con il valore :code:`https://www.spid.gov.it/SpidL3**`;
-    - gli attributi inviati in risposta alla richiesta di autenticazione comprendono sempre almeno il *Minimum Dataset eIDAS* e non è previsto l'invio dello *spidCode*. 
+
+    - gli attributi inviati in risposta alla richiesta di autenticazione comprendono sempre almeno il *Minimum Dataset eIDAS* e non è previsto l'invio dello *spidCode*.
