@@ -60,25 +60,7 @@ jobs:
           sphinx-build -b html docs/it/  html/$SUBPATH/it
           # sphinx-build -b html docs/en/  html/$SUBPATH/en
           # touch html/$SUBPATH/it/.nojekyll
-      
-      # Runs a single command using the runners shell
-      - name: Create GH page index
-        run: |-
           touch html/.nojekyll
-          echo '
-          <html>
-          <head>
-            <title>Regole Tecniche CIE eID SAML</title>
-            <meta name="viewport" content="initial-scale=1.0">
-          </head>
-          <body>
-          <h1>Regole Tecniche CIE eID SAML</h1>
-
-          <ul>
-            <li><a href="it/">Italian version</a></li>
-          </ul>
-          </body>
-          </html>' > html/index.html
 
       - name: Deploy to GitHub Pages
         if: success()
