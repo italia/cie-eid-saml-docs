@@ -1,6 +1,5 @@
 # Regole Tecniche CIE eID SAML
 
-[![GitHub release](https://img.shields.io/github/release/italia/eidas-it-wallet-docs.svg?style=plastic)](https://github.com/italia/cie-eid-saml-docs/releases)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 [![Docs Italia](https://docs.italia.it/media/static/projects/badges/passing.svg)](https://docs.italia.it/italia/cie-eid-saml-docs/it/master/index.html)
 [![Documentation](https://img.shields.io/badge/Documentation-Docs%20Italia-blue.svg)](https://docs.italia.it/italia/cie-eid-saml-docs/)
