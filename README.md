@@ -9,29 +9,29 @@
 
 ## Table of Contents
 
-- [Description](#description)
+- [Introduction](#introduction)
+- [Preview](#preview)
 - [Documentation](#documentation)
+- [Build](#build)
 - [Versioning](#versioning)
 - [Contributing](#how-to-contribute)
 - [Authors](#authors)
 - [License](#license)
 
-## Intro
+## Introduction
 
-This repository hosts the sphinx project tree of CIE eID Technical Specifications for the authentication scheme based on the Security Assertion Markup Language 2.0 (SAML 2.0).
+This repository hosts the sphinx project tree of CIE eID Technical Specifications for the authentication scheme "Entra con CIE" based on the Security Assertion Markup Language 2.0 (SAML 2.0).
 
 
 ## Preview
 
-The stable release is published at the link below:
-
- - [Italian](https://italia.github.io/cie-eid-saml-docs/versione-corrente/it/)
+The current version is published at this [link](https://italia.github.io/cie-eid-saml-docs/versione-corrente/it/).
 
 ### Preview of a branch
 
 Preview of other branches can be navigated by adding the branch name in the webpath, as follows:
 
- - 
+ - https://italia.github.io/cie-eid-saml-docs/<branch_name>/it/
 
 ### Preview of released versions
 
@@ -81,8 +81,13 @@ Each time a release is created or edited, a preview is built based on the tag th
 
 ## How to contribute
 
-Feel free to open [Pull Requests and to present a problem with an Issue](CONTRIBUTING.md).
+Please help development by reporting problems, suggesting changes and asking questions. To do this, you can [create a GitHub Issue](https://help.github.com/articles/creating-an-issue/) for this project in the [GitHub Issues for publiccode.yml](https://github.com/italia/publiccode.yml/issues).
 
+Feel free to open Pull Requests and to present a problem with an Issue.
+
+If you never used GitHub, get up to speed with [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/) or follow one of the great free interactive courses in the [GitHub learning lab](https://lab.github.com/) on working with GitHub and working with MarkDown, the syntax this project's documentation is in.
+
+This project is [licenced CC-0](LICENSE), which essentially means that the project, along with your contributions is in the Public Domain in whatever jusrisdiction possible, and everyone can do whatever they want with it.
 
 ## License
 
