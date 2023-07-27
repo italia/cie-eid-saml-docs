@@ -1,9 +1,9 @@
-# EUDI Wallet Technical Specifications
+# Regole Tecniche CIE eID SAML
 
-[![GitHub release](https://img.shields.io/github/release/italia/eidas-it-wallet-docs.svg?style=plastic)](https://github.com/italia/eidas-it-wallet-docs/releases)
+[![GitHub release](https://img.shields.io/github/release/italia/eidas-it-wallet-docs.svg?style=plastic)](https://github.com/italia/cie-eid-saml-docs/releases)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
-[![Docs Italia](https://docs.italia.it/media/static/projects/badges/passing.svg)](https://docs.italia.it/italia/eidas-it-wallet-docs/it/master/index.html)
-[![Documentation](https://img.shields.io/badge/Documentation-Docs%20Italia-blue.svg)](https://docs.italia.it/italia/eidas-it-wallet-docs/)
+[![Docs Italia](https://docs.italia.it/media/static/projects/badges/passing.svg)](https://docs.italia.it/italia/cie-eid-saml-docs/it/master/index.html)
+[![Documentation](https://img.shields.io/badge/Documentation-Docs%20Italia-blue.svg)](https://docs.italia.it/italia/cie-eid-saml-docs/)
 
 ---
 
@@ -18,16 +18,14 @@
 
 ## Intro
 
-This repository hosts the sphinx project tree of EUDI Wallet Technical Specifications.
+This repository hosts the sphinx project tree of CIE eID Technical Specifications for the authentication scheme based on the Security Assertion Markup Language 2.0 (SAML 2.0).
 
-> This repository may contain contents to be considered experimental until the publication of the first release.
 
 ## Preview
 
-The stable release in different languages is published at the link below:
+The stable release is published at the link below:
 
- - [English](https://italia.github.io/eudi-wallet-it-docs/en/)
- - [Italian](https://italia.github.io/eudi-wallet-it-docs/it/)
+ - [Italian](https://italia.github.io/cie-eid-saml-docs/versione-corrente/it/)
 
 ### Preview of a branch
 
@@ -39,7 +37,7 @@ Preview of other branches can be navigated by adding the branch name in the webp
 
 Released versions can be navigated by adding the tag in the webpath leaded by a _v_, as follows:
 
- - https://italia.github.io/eudi-wallet-it-docs/v0.4.1/en
+ - https://italia.github.io/cie-eid-saml-docs/v0.4.1/en
 
 
 ## Documentation
@@ -57,11 +55,8 @@ HTML
 ````
 pip install -r requirements.txt
 
-# italian version
 sphinx-build -b html -d html/it/doctrees docs/it/  html/it
 
-# english version
-sphinx-build -b html -d html/en/doctrees docs/en/  html/en
 ````
 
 ODT
@@ -69,7 +64,7 @@ ODT
 sudo apt install pandoc
 sphinx-build -b singlehtml docs/it/  html/
 cd html
-pandoc -o eidas-it-wallet-docs.odt index.html
+pandoc -o cie-eid-saml-docs.odt index.html
 ````
 
 ## Versioning
