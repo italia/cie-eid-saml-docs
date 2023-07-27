@@ -31,7 +31,7 @@ The stable release is published at the link below:
 
 Preview of other branches can be navigated by adding the branch name in the webpath, as follows:
 
- - https://italia.github.io/eudi-wallet-it-docs/$branch-name/en
+ - 
 
 ### Preview of released versions
 
