@@ -1,0 +1,10 @@
+document:
+  name: Regole Tecniche CIE eID SAML
+  description: |
+    Specifiche tecniche per i fornitori di servizi pubblici e privati che descrivono le modalità di integrazione dello schema di autenticazione "Entra con CIE" per l'accesso ai servizi online secondo il protocollo SAML v2. 
+  tags:
+    - standard 
+    - interoperabilità
+    - cie
+    - saml
+  

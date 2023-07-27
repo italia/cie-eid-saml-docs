@@ -18,7 +18,7 @@ La componente server dell’Identity Provider (CieID Server) interpreta la richi
 3. Invita l’utente a avvicinare la propria CIE sul lettore (RF o NFC) avviando automaticamente il processo di autenticazione mediante la CIE, in caso di accesso con livello di sicurezza “alto” (livello 3). Poggiata la carta sul lettore, allL’utente deve, quindi,viene richiesto di inserire la seconda metà del PIN e confermare.
 
 
-.. figure:: ./media/processoAutenticazioneCIE.png
+.. figure:: ../../media/processoAutenticazioneCIE.png
    :alt: Processo di autenticazione del CieID Server
    :name: processo-autenticazione-con-cie
 
@@ -461,7 +461,7 @@ Logout
 
 Lo schema di autenticazione Entra con CIE, nella versione attuale, non implementa il Single logout SAML. Il meccanismo di logout previsto gestisce la sola sessione relativa all'Identity Provider non propagando il logout sulle relative sessioni dei Service Provider. A tal proposito é onere del Service Provider garantire il logout al proprio servizio autenticato tramite un apposito endpoint presente nei metadata dell'Identity Provider all'interno del tag :xml:`<SingleLogoutService>` che viene invocato mediante HTTP-GET e che reinderizza su una apposita pagina dell'IdP server CieID recante il messaggio "Logout effettuato con successo".
 
-.. figure:: ./media/SimpleLogout.png
+.. figure:: ../../media/SimpleLogout.png
    :alt: Schermata di logout
    :name: logout-entra-con-cie
 

@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Manuale Tecnico per gli erogatori di servizi pubblici e privati: Protocollo SAML"
+settings_project_name = "Regole Tecniche CIE SAML"
 settings_copyright_copyleft = 'Istituto Poligrafico e Zecca dello stato'
 settings_editor_name = 'Istituto Poligrafico e Zecca dello stato'
 settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
-settings_basename = 'cie-oidc-test-plan-docs'
-settings_file_name = 'cie-oidc-test-plan-docs'
+settings_basename = 'cie-eid-saml-docs'
+settings_file_name = 'cie-eid-saml-docs'
 
 # -- No need to change below here
 

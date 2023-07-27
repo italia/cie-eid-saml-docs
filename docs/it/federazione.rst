@@ -268,13 +268,13 @@ Esempio di metadata
 Di seguito si riporta un esempio di metadata per un Service Provider privato che si presenta autonomamente (senza un partner tecnologico "esterno"). Questo esempio include i soli elementi obbligatori previsti dal presente manuale.
 
 
-.. literalinclude:: metadata_strict_sp_private.xml
+.. literalinclude:: ../../static/metadata_strict_sp_private.xml
    :language: xml
    :linenos:
 
 
 Di seguito si riporta un esempio di metadata per un Service Provider (nell'esempio pubblico) che si presenta per tramite di un partner tecnologico (nell'esempio privato) che funge da referente tecnico "esterno" al SP. Questo esempio include, oltre agli elementi obbligatori, anche alcuni di quelli opzionali.
 
-.. literalinclude:: metadata_full_sp_pubblico_tp_private.xml
+.. literalinclude:: ../../static/metadata_full_sp_pubblico_tp_private.xml
    :language: xml
    :linenos:
