@@ -14,7 +14,6 @@
 - [Build](#build)
 - [Versioning](#versioning)
 - [Contributing](#how-to-contribute)
-- [Authors](#authors)
 - [License](#license)
 
 ## Introduction
