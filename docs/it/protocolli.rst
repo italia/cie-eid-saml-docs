@@ -30,7 +30,7 @@ L’Identity Provider reindirizza nuovamente l’utente   sul sito del Service P
 
 .. note::
 
-    All'interno dello schema Entra con CIE solo il *Single Sign-On* viene gestisto tramite protocollo SAML che prevede di tue tipologie di messaggi:
+    All'interno dello schema Entra con CIE solo il *Single Sign-On* viene gestisto tramite protocollo SAML che prevede due tipologie di messaggi:
 
     - Richiesta di autenticazione: :xml:`<AuthnRequest>`;
     - Risposta di autenticazione: :xml:`<Response>`.
